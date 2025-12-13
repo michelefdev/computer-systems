@@ -2,7 +2,7 @@
 
 This document summarizes the full compilation pipeline using the diagram below as a guide.
 
-![C compilation pipeline](./compilation-pipeline.png)
+![C compilation pipeline](./image.png)
 
 ---
 
