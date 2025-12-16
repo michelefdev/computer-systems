@@ -1,5 +1,5 @@
 # Inside the Machine: How Buses Connect the System
-![Bus architecture](./image.png)
+![Bus architecture](./image2.png)
 
 In the Pentium architecture (used here as an example), communication between major components of the computer system is handled through **three main buses**:
 
