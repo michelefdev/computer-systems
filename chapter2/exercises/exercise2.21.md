@@ -6,11 +6,11 @@ Assuming the expressions are evaluated on a 32-bit machine that uses two's-compl
 
 | Expression | Type | Evaluation | Reasoning |
 |---|---|---|---|
-| `-2147483647-1 == 2147483648U` | | | |
-| `-2147483647-1 < 2147483647` | | | |
-| `-2147483647-1U < 2147483647` | | | |
-| `-2147483647-1 < -2147483647` | | | |
-| `-2147483647-1U < -2147483647` | | | |
+| `-2147483647-1 == 2147483648U` | unsigned | 1 | same bit array |
+| `-2147483647-1 < 2147483647` | signed | 1 | signed comparison |
+| `-2147483647-1U < 2147483647` | unsigned | 0 | cast to unsigned|
+| `-2147483647-1 < -2147483647` | signed | 1 | normal comparison|
+| `-2147483647-1U < -2147483647` | unsigned | 1 | double cast to unsigned|
 
 ## Notes
 
